@@ -7,10 +7,17 @@ Desktop: 1440px */
 /* font family: Epilogue
 weights: 500, 700 */
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@500;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+
 :root {
     --almostwhite: hsl(0, 0%, 98%);
     --mediumgray: hsl(0, 0%, 41%);
     --almostblack: hsl(0, 0%, 8%);
+}
+
+* {
+    font-family: "Epilogue";
 }
 
 
