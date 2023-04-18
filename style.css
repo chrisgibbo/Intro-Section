@@ -10,7 +10,8 @@ weights: 500, 700 */
 :root {
     --almostwhite: hsl(0, 0%, 98%);
     --mediumgray: hsl(0, 0%, 41%);
-    --almostblack: hsl(0, 0, 8%);
-    --pink: hsl(0, 20%, 20%)
+    --almostblack: hsl(0, 0%, 8%);
 }
+
+
 
