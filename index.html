@@ -7,6 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <title>Intro Section | Frontend Mentor | Challenge</title>
+    <script>
+        tailwind.config = {
+            variants: {
+                display:['group-hover']
+            }
+        }
+    </script>
 </head>
 <body>
 
@@ -20,16 +27,32 @@
                             <img src="images/logo.svg" alt="">
                         </div>          
                         <div class="space-x-10 text-sm hidden lg:flex">
-                            <button class="flex items-center">
-                                <a href="#" class="hover:text-indigo-500">Features</a>
-                                <img src="images/icon-arrow-down.svg" alt="" class="ml-2">
-                            </button>
-                            <button class="flex items-center">
-                                <a href="#" class="hover:text-indigo-500">Company</a>
-                                <img src="images/icon-arrow-down.svg" alt="" class="ml-2">
-                            </button>
+
+                            <div class="group relative inline">
+                                <button class="flex items-center hover:text-indigo-500 mb-2">Features                                    
+                                    <img src="images/icon-arrow-down.svg" alt="" class="ml-2">
+                                </button>
+                                <div class="group-hover:block absolute leading-8 hidden border">
+                                    <a href="#" class="">Todo List</a>
+                                    <a href="#" class="">Calendar</a>
+                                    <a href="#" class="">Reminders</a>
+                                    <a href="#" class="">Planning</a>
+                                </div>
+                            </div>
+
+                            <div class="group relative">
+                                <button class="flex items-center hover:text-indigo-500 mb-2">Company
+                                    <img src="images/icon-arrow-down.svg" alt="" class="ml-2">
+                                </button>
+                                <div class="group-hover:block absolute hidden">
+                                    <a href="#">History</a>
+                                    <a href="#">Our Team</a>
+                                    <a href="#">Blog</a>
+                                </div>
+                            </div>
                             <a href="#" class="hover:text-indigo-500">Careers</a>
                             <a href="#" class="hover:text-indigo-500">About</a>
+
                         </div>
                     </div>
                     <div class="space-x-5 text-sm hidden lg:flex lg:items-center">
