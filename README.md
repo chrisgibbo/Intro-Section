@@ -28,3 +28,8 @@ Users should be able to:
 - Tailwind CSS
 - Flexbox
 - Responsive Design
+
+# Screenshot of Mobile Version; 💪 👇
+
+
+<img width="361" alt="Intro screenshot mobile" src="https://github.com/chrisgibbo/Intro_Section/assets/125750905/3409dbce-c001-4e74-8d1a-41b7529c4af3">
